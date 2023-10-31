@@ -43,7 +43,12 @@ public class DiceGame {
 	private static boolean didIWin(int die1, int die2, String choice)
 	{
 		
-		return false;
+		if((die1+die2%2 == 0 && Integer.parseInt(choice) == 0) || (die1+die2%2 == 1 && Integer.parseInt(choice) == 1)) {
+			return true;
+		} else {
+			return false;
+		}
+		
 	}
 	
 	
