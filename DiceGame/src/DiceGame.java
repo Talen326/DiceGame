@@ -48,13 +48,17 @@ public class DiceGame {
 	}
 	private static String[][] initLang() {
 		String[][] temp = new String[][] {
+			// English
 			{"Do you want to play?\nYes\nNo", "How many players are there?", "yes", 
 				"Player ", ": [0] Even\n[1] Odd", "Die 1: ",
 				"\nDie 2: ", " wins!", " loses!", "Do you want to play?\nYes\nNo", "Enter language:\n[0] English\n[1] Hawaiian Pidgen"},
+			// Pidgen
 			{"Like try?\nYessah\nNo", "How many dakine Braddahs?", "yessah",
 			"Braddah ", ": [0] Even\n[1] Odd", "Die 1: ",
-			"\nDie 2: ", " winnah!", " no need win.","Like try again?\nYessah\nNo"
-			}
+			"\nDie 2: ", " winnah!", " no need win.","Like try again?\nYessah\nNo"},
+			{"你要玩个游戏吗?\n我要玩\n我不要玩", "有多少人?", "我要玩", 
+				"玩家 ", ": [0] 偶数\n[1] 奇数", "骰子 1: ",
+				"\n骰子 2: ", " 赢了!", " 输了!", "你要玩个游戏吗?\n我要玩\n我不要玩"}
 		};
 		return temp;
 	}
